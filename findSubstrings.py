@@ -1,5 +1,5 @@
-word = "incomprehensibilities" #input("Please type in a string: ")
-comp = "i" #input("Please type in a character: ")
+word = input("Please type in a string: ")  #"substringsingsangsung" 
+comp = input("Please type in a character: ") #"s" 
 rem = word
 count = 1
 while True:
@@ -8,7 +8,7 @@ while True:
     if len(extract) > 2:
         print(extract)
 
-    if len(rem) == 2:
+    if count == 0:
         break
         
     count += result
