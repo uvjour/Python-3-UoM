@@ -1,5 +1,5 @@
-word = "stringsingsang" #input("Please type in a string: ")
-comp = "s" #input("Please type in a character: ")
+word = input("Please type in a string: ")
+comp = input("Please type in a character: ")
 rem = word
 count = 1
 while count < len(word):
@@ -11,5 +11,6 @@ while count < len(word):
     if len(rem) < 2:
         break
         
-    rem = rem[(count):]
     count += result
+    rem = rem[(count):]
+    print(count)
