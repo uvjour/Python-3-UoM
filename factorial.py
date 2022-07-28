@@ -8,8 +8,8 @@ while True:
         print("Thanks and bye!")
         break
 
-    while number > 0:
-        factor *= number
-        number -=1
+    while count > 0:
+        factor *= count
+        count -=1
     
-    print(f"The factorial of the number {count} is {factor}")
+    print(f"The factorial of the number {number} is {factor}")
