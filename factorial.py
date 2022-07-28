@@ -1,3 +1,5 @@
+# Find a factorial for any given number
+
 while True:
     number = int(input("Please type in a number: "))
     count = number
